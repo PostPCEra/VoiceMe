@@ -17,8 +17,9 @@ Flask Tutorial -- good one:
 
 6. ./ngrok http PORT   # same port as flask webserver
 
-you have url available for whole world
+- you have url available for whole world
+
+# this will show all the GET, POST Parameters all other details, great for TESTING ...
+7. http://localhost:4040/inspect
 
 ```
-
-
