@@ -1,5 +1,6 @@
 from flask import Flask, render_template, request
 
+from logic import  check_age
 # ----------------------------------------------------------------------
 # having a separate 'app' folder and 'router.py' in 'app' folder is causing confusion, so have a single file
 # ----------------------------------------------------------------------
@@ -20,11 +21,7 @@ def check_data():
         age = int(data['age'])
         user_data = {'name': name, age: age}
 
-        #message = check_age(age)
-        if age < 18:
-            message = "sorry, you have to wait till 18 to drive"
-        else:
-            message = "Hurry!!!!!!, you can drive"
+        message = check_age(age)
 
         text = render_template("hi_response.html",
                                target="handle_hi",

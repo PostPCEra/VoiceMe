@@ -14,6 +14,7 @@ app-react-jest/node_modules
 .Python
 env/
 env-voice/
+ngrok/
 bin/
 build/
 develop-eggs/
