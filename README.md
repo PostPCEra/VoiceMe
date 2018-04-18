@@ -22,4 +22,6 @@ Flask Tutorial -- good one:
 # this will show all the GET, POST Parameters all other details, great for TESTING ...
 7. http://localhost:4040/inspect
 
+8. [localtunnel](https://www.linkedin.com/pulse/localtunnel-vs-ngrok-dave-gallup) seems alternative to 'ngrok' ,
+   but it may not have nice HTTP Traffic viewing ( all GET/POST Params) with as ngrok with it's http://localhost:4040/inspect
 ```
