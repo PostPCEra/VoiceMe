@@ -13,6 +13,7 @@ app-react-jest/node_modules
 # Distribution / packaging
 .Python
 env/
+env-voice/
 bin/
 build/
 develop-eggs/
